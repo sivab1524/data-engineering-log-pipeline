@@ -1,0 +1,14 @@
+# Ignore data files
+data/
+
+# Ignore parquet, csv, logs
+*.parquet
+*.csv
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Spark / temp
+spark-*
